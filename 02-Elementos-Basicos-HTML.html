@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Elementos Básicos de HTML</title>
+		<!-- Permite enlazar se trabaja con css-->
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+		<!-- Permite enlazar se trabaja con Javascript-->
+		<script type="text/javascript"></script>
+	</head>
+	<body>
+		
+		<center><!--Centra lo que este dentro de la etiqueta-->
+			<h1>Elementos Básicos HTML</h1>
+			<h3>Loguearse</h3>
+			<!--Etiquetas de tipo input-->
+			<label for="usuario">Ingresar Usuario</label><!--sirve para poner un titulo al input-->
+			<br>
+			<!--input tipo text es para ingresar texto-->
+			<input type="text" name="usuario" placeholder="ingresar Usuario" />
+			<br>
+			<label for="password">Ingresar Contraseña</label>
+			<br>
+			<!--input tipo password es para que ocultar la clave-->
+			<input type="password" name="password" placeholder="Ingresar Contraseña" />
+			<br>
+			<!--input tipo submit sirve para enviar la información-->
+			<input type="submit" value="Ingresar" />
+			<br>
+			<!--input checkbox sirve para recordar clave-->
+			<input type="checkbox" name="recordar" />Recordar Clave... 
+		</center>
+		
+		<!--muestra un calendario-->
+		<input type="date" name="">
+		<br>
+		<!--permite ingresar solo números-->
+		<input type="number" name="">
+		<br>
+		<!--muestra fecha y hora-->
+		<input type="datetime-local" name="">
+		<br>
+		<!--sirve adjuntar archivos-->
+		<input type="file" name="">
+		<br>
+		<!--Para seleccionar un opcion-->
+		<input type="radio" name="opciones">opcion 1
+		<input type="radio" name="opciones">opcion 2
+		<input type="radio" name="opciones">opcion 3
+
+		<!--Lista desplegable-->
+		<br><br>
+		<select name="seleccion">
+			<option value="1">valor 1</option>
+			<option value="2">valor 2</option>
+			<option value="3">valor 3</option>
+			<option value="4">valor 4</option>
+		</select>
+		<br><br>
+		
+		<!--Sirve para comentar-->
+		<textarea>Ingresar comentario...</textarea>
+	</body>
+</html>
